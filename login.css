@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* Ganti URL gambar di sini sesuai dengan gambar yang ingin Anda gunakan */
+    background: url('mayer.jpg') no-repeat center center/cover;
+    /* Warna gradasi di atas gambar untuk efek gelap */
+    background-color: rgba(0, 0, 0, 0.5); /* Opasitas warna latar */
+    background-blend-mode: overlay; /* Efek pencampuran warna */
+  }
+  
+  /* Container Styling (Optional) */
+  .dashboard-container {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Warna latar kontainer */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .login-form {
+    background-color:rgba(0, 51, 102, 0.85);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    color: white;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-group input:focus {
+    border-color: #6a11cb;
+    outline: none;
+  }
+  
+  .btn-login {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0831e7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-login:hover {
+    background-color: #2575fc;
+  }
+  
+  .signup-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .signup-text a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .signup-text a:hover {
+    color: #2575fc;
+  }
+
+     /* Background and body styling */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('mayer.jpg') no-repeat center center fixed; /* Replace with actual image path */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Form container styling */
+        .register-container {
+            background-color: rgba(0, 51, 102, 0.85); /* Dark blue with opacity */
+            padding: 30px;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+        }
+
+        /* Header styling */
+        .register-container h2 {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        /* Input field styling */
+        .register-container label {
+            display: block;
+            margin: 10px 0 5px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+
+        .register-container input[type="text"], 
+        .register-container input[type="password"], 
+        .register-container input[type="email"] {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        /* Button styling */
+        .register-container button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: #004de6;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+        }
+
+        /* Button hover effect */
+        .register-container button:hover {
+            background-color: #003bb5;
+        }
+
+        /* Link to login page styling */
+        .register-container .login-link {
+            text-align: center;
+            margin-top: 15px;
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        .register-container .login-link a {
+            color: #80bfff;
+            text-decoration: none;
+        }
+
+        .register-container .login-link a:hover {
+            text-decoration: underline;
+        }
+        .project-button {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+        }
+        
+        .project-button .icon-image {
+          width: 24px; /* Atur ukuran sesuai kebutuhan */
+          height: 24px;
+        }
+        
+  
